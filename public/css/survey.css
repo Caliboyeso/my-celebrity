@@ -1,0 +1,66 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #body */
+#body {
+    background-color: teal;
+}
+
+/* .container */
+.container {
+    background-color: white;
+    margin: 40px;
+    border: 5px solid silver;
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* #survey-header */
+#survey-header {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 65px;
+    color: teal;
+}
+
+/* #all-questions */
+#all-questions {
+    margin-bottom: 70px;
+    font-size: 25px;
+}
+
+/* .questions */
+.questions {
+    color: grey;
+}
+
+.chosen-select {
+    color: red;
+    font-size: 25px;
+}
+
+/* #submit-btn */
+#submit-btn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* #match-image */
+#match-img {
+    height: 335px;
+    width: 466px;
+    text-align: center;
+}
+
+/* #match-name */
+#match-name {
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* #close-btn */
+#close-btn {
+    font-family: 'Amaranth', sans-serif;
+}

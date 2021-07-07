@@ -1,0 +1,39 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+#body {
+    background-color: teal;
+}
+
+/* #jumbotron-header */
+#jumbotron-header {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 75px;
+    color: teal;
+}
+
+/* #jumbotron-message */
+#jumbotron-message {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+/* #jumbtron-message, #survey-btn, #footer-links */
+#jumbotron-message, #survey-btn, #footer-links {
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: silver;
+    width: 365px;
+    border: 1px solid black;
+    height: 35px;
+    font-size: 25px;
+}
